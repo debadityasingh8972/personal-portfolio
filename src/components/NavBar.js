@@ -49,9 +49,9 @@ export const NavBar = () => {
                         </Nav>
                         <span className="navbar-text">
                             <div className="social-icon">
-                                <a href="#"><img src={navIcon1} alt="" /></a>
-                                <a href="#"><img src={navIcon2} alt="" /></a>
-                                <a href="#"><img src={navIcon3} alt="" /></a>
+                                <a href="https://www.linkedin.com/in/debaditya-singh-402846198/"><img src={navIcon1} alt="" /></a>
+                                <a href="https://github.com/debadityasingh8972"><img src={navIcon2} alt="" /></a>
+                                <a href="https://www.instagram.com/debaditya_singh_5972/"><img src={navIcon3} alt="" /></a>
                             </div>
                         {/* <HashLink to='#connect'> */}
                             <button className="vvd" onClick={() => console.log('connect')}><span>Let’s Connect</span></button>
