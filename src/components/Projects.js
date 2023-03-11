@@ -5,8 +5,8 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.PNG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-// import 'animate.css';
-// import TrackVisibility from 'react-on-screen';
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
@@ -48,9 +48,9 @@ export const Projects = () => {
             <Container>
                 <Row>
                     <Col size={12}>
-                        {/* <TrackVisibility> */}
-                        {/* {({ isVisible }) =>
-                        <div className={isVisible ? "animate__animated animate__fadeIn": ""}> */}
+                        <TrackVisibility>
+                        {({ isVisible }) =>
+                        <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                             <h2>Projects</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                             <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -65,8 +65,8 @@ export const Projects = () => {
                                     <Nav.Link eventKey="third">Tab 3</Nav.Link>
                                 </Nav.Item>
                             </Nav>
-                            {/* <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}> */}
-                            <Tab.Content id="slideInUp">
+                            <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                            {/* <Tab.Content id="slideInUp"> */}
                                 <Tab.Pane eventKey="first">
                                     <Row>
                                         {
@@ -89,8 +89,8 @@ export const Projects = () => {
                                 </Tab.Pane>
                             </Tab.Content>
                             </Tab.Container>
-                        {/* </div>} */}
-                        {/* </TrackVisibility> */}
+                        </div>}
+                        </TrackVisibility>
                     </Col>
                 </Row>
             </Container>
