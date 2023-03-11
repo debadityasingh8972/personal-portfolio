@@ -26,21 +26,21 @@ export const Projects = () => {
             description: "C++",
             imgUrl: projImg3,
         },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg4,
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-        },
+        // {
+        //     title: "Business Startup",
+        //     description: "Design & Development",
+        //     imgUrl: projImg4,
+        // },
+        // {
+        //     title: "Business Startup",
+        //     description: "Design & Development",
+        //     imgUrl: projImg2,
+        // },
+        // {
+        //     title: "Business Startup",
+        //     description: "Design & Development",
+        //     imgUrl: projImg3,
+        // },
     ];
 
     return (
